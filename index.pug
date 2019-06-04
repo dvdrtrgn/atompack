@@ -1,0 +1,15 @@
+//output:build/$1.html
+//{ date: new Date, myFunc: () => date }
+<!DOCTYPE html>
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title A Vue.js Hello World
+    link(rel='stylesheet' href='index.css')
+    script(src='https://unpkg.com/vue')
+  body
+    div#Example
+
+      p {{ hello }}
+
+    script(src='index.js')
