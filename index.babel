@@ -2,5 +2,6 @@ new Vue({
   el: '#Example',
   data: {
     hello: 'Hello World!',
+    zoom: 'Hover Zoom',
   },
 });

@@ -1,3 +1,39 @@
+$gray0: #fff;
+$gray1: #eee;
+$gray2: #ddd;
+$gray3: #ccc;
+$gray4: #bbb;
+$gray5: #aaa;
+
+html {
+  font-size: 12pt;
+  background-color: $gray1;
+}
 body {
+  display: flex;
+  height: 100vh; width: 100vw;
+  margin: 0;
+}
+main {
+  background-color: $gray0;
+  border: 1px solid $gray5;
+  margin: auto;
+}
+
+.alt {
   color: red;
+  font-size: 16px;
+  transition: 1s;
+
+  &:hover {
+    cursor: zoom-in;
+    font-size: 2em;
+  }
+}
+.halo {
+  box-shadow: $gray3 inset 0 0 1em 0em, $gray0 0 0 10em 10em;
+}
+
+#Example {
+  margin: 1em;
 }
